@@ -59,6 +59,7 @@ p {
 
 .sedans .button {
     color: var(--bright-orange);
+    border: 2px solid #ffffff;
 }
 
 .suvs {
@@ -67,6 +68,7 @@ p {
 
 .suvs .button {
     color: var(--dark-cyan);
+    border: 2px solid #ffffff;
 }
 
 .luxury {
@@ -76,6 +78,7 @@ p {
 
 .luxury .button {
     color: var(--very-dark--cyan);
+    border: 2px solid #ffffff;
 }
 
 @media screen and (max-width: 984px) {
@@ -109,7 +112,6 @@ p {
 
 @media screen and (max-width: 5000px) {
     .button:hover {
-    border: 2px solid #ffffff;
     background: transparent;
     color: white;
 }
