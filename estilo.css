@@ -12,6 +12,10 @@
     font-size: 15px;
 }
 
+body {
+    background: var(--very-light-gray);
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
